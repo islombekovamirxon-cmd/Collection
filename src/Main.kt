@@ -30,11 +30,22 @@ fun main() {
 //    mutableFruits.sort() /// tartiblaydi
 //    println(mutableFruits)
 
-    val group = mutableListOf<Person>(
-        Person("Xamit", 15, "Aqchako'l"),
-        Person("Navro'z", 15, "Navoiy")
+//    val group = mutableListOf<Person>(
+//        Person("Xamit", 15, "Aqchako'l"),
+//        Person("Navro'z", 15, "Navoiy")
+//    )
+//    println(group)
+//    group.sortBy { it.name }
+//    println(group.size)
+    val CarGroup = mutableListOf<Car>(
+        Car("Merseders"
+            , "Seles Banan"
+            , "Black"),
+        Car("BMW",
+            "M5" ,
+            "Dark Blue")
     )
-    println(group)
-    group.sortBy { it.name }
-    println(group.size)
+    println(CarGroup)
+    CarGroup.sortBy { it.name }
+    println(CarGroup.size)
 }
